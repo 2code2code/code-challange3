@@ -3,7 +3,7 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <section className="w-screen relative flex items-center justify-center overflow-hidden bg-gradient-to-r from-slate-300 to-slate-500 py-16 shadow-lg md:py-20 xl:py-48 ">
+    <section className="w-screen relative flex items-center justify-center overflow-hidden bg-gradient-to-r from-amber-200 to-yellow-400 py-16 shadow-lg md:py-20 xl:py-48 ">
       {/* <Image
         width="1920"
         height="1000"
