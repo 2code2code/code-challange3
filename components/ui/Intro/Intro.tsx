@@ -29,7 +29,6 @@ const Intro = () => {
               <div className="relative left-12 top-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:left-16 md:top-16 lg:ml-0">
                 <Image
                   src="https://images.unsplash.com/photo-1531816458010-fb7685eecbcb?auto=format&q=75&fit=crop&w=550&h=550"
-                  loading="lazy"
                   alt="Photo by Kaung Htet"
                   height="500"
                   width="500"
@@ -40,7 +39,6 @@ const Intro = () => {
               <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
                 <Image
                   src="https://images.unsplash.com/photo-1631603090989-93f9ef6f9d80?auto=format&q=75&fit=crop&w=550&h=550"
-                  loading="lazy"
                   alt="Photo by Manny Moreno"
                   height="500"
                   width="500"

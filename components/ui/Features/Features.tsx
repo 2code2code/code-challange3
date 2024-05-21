@@ -48,10 +48,10 @@ const Features: React.FC = () => {
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         {/* text - start */}
         <div className="mb-10 md:mb-16">
-          <h1 className="mb-4 text-center text-2xl font-bold md:mb-6 lg:text-3xl">
+          <h1 className="mb-4 text-center text-2xl p-5 font-bold md:mb-6 lg:text-3xl">
             The ZeusChain Advantage
           </h1>
-          <p className="mx-auto max-w-screen-md text-center  md:text-lg">
+          <p className="mx-auto max-w-screen-md text-center md:text-lg">
             At ZeusChain, we leverage cutting-edge blockchain technology to
             deliver unparalleled solutions in the decentralized ecosystem. Our
             suite of products and services is designed to provide seamless,
@@ -79,9 +79,9 @@ const Features: React.FC = () => {
                   />
                 </svg>
               </div>
-              <h3 className="mb-2 text-center text-lg font-semibold md:text-xl">
+              <h2 className="mb-2 text-center text-lg font-semibold md:text-xl">
                 {feature.title}
-              </h3>
+              </h2>
               <p className="mb-2 text-center text-gray-500">
                 {feature.description}
               </p>

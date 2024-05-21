@@ -38,7 +38,7 @@ const Descrip: React.FC = () => {
               consortium blockchains to ensure privacy and control
             </p>
 
-            <h2 className="mb-2 text-center text-xl font-semibold text-base-800 sm:text-2xl md:mb-4 md:text-left">
+            <h2 className="mb-2 text-center text-xl font-semibold text-base-800 sm:text-2xl md:mb-4 md:text-left text-yellow-400">
               Why use our service ?
             </h2>
 
