@@ -12,10 +12,10 @@ const Timeline: React.FC = () => {
           Launch of ZeusChain mainnet and ZeusToken (ZTK) distribution.
         </h3>
         <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-          Alongside the mainnet launch, the project's native cryptocurrency,
-          ZeusToken (ZTK), will be distributed. This could involve distributing
-          tokens to early investors, participants in a token sale, or as rewards
-          for certain activities within the ecosystem.
+          Alongside the mainnet launch, the project&apos;s native
+          cryptocurrency, ZeusToken (ZTK), will be distributed. This could
+          involve distributing tokens to early investors, participants in a
+          token sale, or as rewards for certain activities within the ecosystem.
         </p>
         <a
           href="#"
