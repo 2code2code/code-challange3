@@ -46,7 +46,6 @@ const Features: React.FC = () => {
   return (
     <div className="bg-gradient-to-r from-amber-200 to-yellow-400 py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-        {/* text - start */}
         <div className="mb-10 md:mb-16">
           <h1 className="mb-4 text-center text-2xl p-5 font-bold md:mb-6 lg:text-3xl">
             The ZeusChain Advantage
@@ -58,7 +57,6 @@ const Features: React.FC = () => {
             secure, and efficient experiences for our users.
           </p>
         </div>
-        {/* text - end */}
 
         <div className="grid gap-12 sm:grid-cols-2 xl:grid-cols-3 xl:gap-16">
           {features.map((feature, index) => (

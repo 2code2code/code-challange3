@@ -4,10 +4,9 @@ import PriceStat from "../PriceStat/PriceStat";
 
 const Intro = () => {
   return (
-    <div>
-      {" "}
+    <section>
       <div className="bg-black py-8 md:py-10">
-        <section className="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="mb-8 flex flex-wrap justify-between md:mb-16">
             <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
               <h1 className="mb-4 text-4xl font-bold  sm:text-5xl md:mb-8 md:text-6xl text-yellow-500">
@@ -48,15 +47,9 @@ const Intro = () => {
             </div>
           </div>
           <PriceStat />
-
-          <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
-            <div className="flex items-center justify-center gap-4 lg:justify-start">
-              <span className="h-px w-12 bg-gray-200"></span>
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -5,9 +5,9 @@ const Timeline: React.FC = () => {
     <ol className="relative border-s border-gray-200 dark:border-gray-700">
       <li className="mb-10 ms-4">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+        <div className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
           Q2 2024
-        </time>
+        </div>
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
           Launch of ZeusChain mainnet and ZeusToken (ZTK) distribution.
         </h3>
@@ -41,9 +41,9 @@ const Timeline: React.FC = () => {
       </li>
       <li className="mb-10 ms-4">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+        <div className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
           Q3 2024
-        </time>
+        </div>
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
           Release of ZeusWallet and initial dApp ecosystem.
         </h3>
@@ -55,9 +55,9 @@ const Timeline: React.FC = () => {
       </li>
       <li className="ms-4">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+        <div className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
           Q1 2025
-        </time>
+        </div>
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
           Introduction of ZeusBridge for cross-chain interoperability.
         </h3>

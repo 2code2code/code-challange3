@@ -80,8 +80,8 @@ const RandomUsers: React.FC = () => {
               <div className="flex justify-center">
                 <div className="flex gap-4">
                   <a
-                    href="/teams"
-                    target="https://twitter.com/"
+                    href="https://twitter.com/"
+                    aria-label="Twitter"
                     className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
                   >
                     <svg
@@ -97,8 +97,8 @@ const RandomUsers: React.FC = () => {
                   </a>
 
                   <a
-                    href="/teams"
-                    target="https://twitter.com/"
+                    href="https://twitter.com/"
+                    aria-label="Twitter"
                     className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
                   >
                     <svg

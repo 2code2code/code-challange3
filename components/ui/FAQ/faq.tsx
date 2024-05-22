@@ -11,7 +11,6 @@ const FAQSection: React.FC = () => {
   return (
     <div className="bg-background py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-        {/* text - start */}
         <div className="mb-10 md:mb-16">
           <h2 className="mb-4 text-center text-2xl font-bold  md:mb-6 lg:text-3xl">
             F.A.Q
@@ -23,10 +22,8 @@ const FAQSection: React.FC = () => {
             information you need quickly and easily.
           </p>
         </div>
-        {/* text - end */}
 
         <div className="mx-auto flex max-w-screen-sm flex-col border-t">
-          {/* question - start */}
           {[
             {
               question: "What is ZeusChain and how does it work?",
@@ -83,7 +80,6 @@ const FAQSection: React.FC = () => {
               )}
             </div>
           ))}
-          {/* question - end */}
         </div>
       </div>
     </div>

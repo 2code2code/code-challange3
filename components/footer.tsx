@@ -63,12 +63,12 @@ const Footer: React.FC = () => {
           </a>
         </div>
       </div>
-      <aside className="text-center pt-5">
+      <div className="text-center pt-5">
         <p>
           Copyright © 2024 - All rights reserved by{" "}
           <b className="text-yellow-400">Zeus Chain</b>
         </p>
-      </aside>
+      </div>
     </footer>
   );
 };
